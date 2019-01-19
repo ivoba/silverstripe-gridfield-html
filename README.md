@@ -25,11 +25,13 @@ Via Composer
 ## Usage
 Sometimes you just want to add a Link next to the actions, sometimes some text on top of the grid and sometimes an important image under the grid.
 
-$gridField->getConfig()->addComponent(new GridFieldHtmlComponent([
+``` php
+    $gridField->getConfig()->addComponent(new GridFieldHtmlComponent([
           'buttons-before-left' => '<a href="/api/model/v1.json" target="_blank" class="font-icon-rocket btn btn-secondary">API</a>',
           'before' => '<div class="alert-info">Here comes the grid</div>',
           'after' => '<div class="alert-info center"><img src="https://www.seashepherd.org.au/images/news/2016/news-160204-2-3-Clean-Up-Banner-650w-2.jpg"/></div>'
           ]));
+```
 
 See here:
 https://docs.silverstripe.org/en/4/developer_guides/forms/field_types/gridfield/#flexible-area-assignment-through-fragments
