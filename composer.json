@@ -1,0 +1,22 @@
+{
+    "name": "ivoba/silverstripe-gridfield-html",
+    "description": "GridField component to add any HTML fragment",
+    "keywords": ["silverstripe", "gridfield", "html"],
+    "license": "MIT",
+    "type": "silverstripe-module",
+    "authors": [
+        {
+            "name": "Ivo Bathke",
+            "email": "ivo.bathke@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "silverstripe/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ivoba\\GridFieldHtml": "src/"
+        }
+    }
+}
