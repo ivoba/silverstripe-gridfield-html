@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ivoba\\GridFieldHtml": "src/"
+            "Ivoba\\GridFieldHtml\\": "src/"
         }
     }
 }
