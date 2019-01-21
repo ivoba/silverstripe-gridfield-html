@@ -3,7 +3,7 @@
     "description": "GridField component to add any HTML fragment",
     "keywords": ["silverstripe", "gridfield", "html"],
     "license": "MIT",
-    "type": "silverstripe-module",
+    "type": "silverstripe-vendormodule",
     "authors": [
         {
             "name": "Ivo Bathke",
